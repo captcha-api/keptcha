@@ -1,0 +1,22 @@
+{
+  "name": "keptcha",
+  "version": "1.0.0",
+  "description": "Wrapper for the Captcha-API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/captcha-api/keptcha.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/captcha-api/keptcha/issues"
+  },
+  "homepage": "https://github.com/captcha-api/keptcha#readme",
+  "devDependencies": {
+    "axios": "^0.21.1"
+  }
+}
