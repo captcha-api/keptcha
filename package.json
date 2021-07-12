@@ -1,6 +1,6 @@
 {
   "name": "keptcha",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Wrapper for the Captcha-API",
   "main": "index.js",
   "scripts": {
@@ -16,7 +16,7 @@
     "url": "https://github.com/captcha-api/keptcha/issues"
   },
   "homepage": "https://github.com/captcha-api/keptcha#readme",
-  "devDependencies": {
+  "dependencies": {
     "axios": "^0.21.1"
   }
 }
