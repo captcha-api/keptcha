@@ -49,8 +49,8 @@ function _generate(options) {
 function _verify(options) {
     return new Promise(function (resolve, reject) {
         axios.post('https://captcha-api.akshit.me/v2/verify', {
-            uuid: '1ebe3492-64b2-69f0-86df-cd02a334434c',
-            captcha: 'y6j1h5'
+            uuid: options.uuid,
+            captcha: options.captcha
         })
             .then(function (response) {
                 resolve(response.data.message);
